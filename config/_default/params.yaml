@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: mcx-lab_theme
-  theme_night: mcx-lab_theme
+  theme_day: minimal
+  theme_night: minimal
   font: native
   font_size: L
 
