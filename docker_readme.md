@@ -18,6 +18,8 @@ docker run -it --rm -p 8080:8080 \
   hugo server --bind 0.0.0.0 -p 8080
 ```
 
+You should be able to see a local version of the site at http://localhost:8080/ (bind address 0.0.0.0)
+
 Any changes made to the working directory should be reflected in the local site immediately.
 
 
