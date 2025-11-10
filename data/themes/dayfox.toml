@@ -1,0 +1,22 @@
+# Dayfox Theme
+
+name = "dayfox"
+
+[light]
+# Primary
+primary = "#286983"
+
+# Menu
+menu_primary = "#e5e9f0"
+menu_text = "#393b44"
+menu_text_active = "#286983"
+menu_title = "#286983"
+
+# Links
+link = "#56949f"
+link_hover = "#286983"
+link_decoration = "bold"
+
+# Home sections
+home_section_odd = "#e5e9f0"
+home_section_even = "#d5d8e0"

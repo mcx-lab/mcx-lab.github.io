@@ -1,0 +1,22 @@
+# Nightfox Theme
+
+name = "nightfox"
+
+[dark]
+# Primary
+primary = "#81b29a"
+
+# Menu
+menu_primary = "#192435"
+menu_text = "#cdcecf"
+menu_text_active = "#e0a888"
+menu_title = "#81b29a"
+
+# Links
+link = "#e0a888"
+link_hover = "#f4a261"
+link_decoration = "bold"
+
+# Home sections
+home_section_odd = "#192435"
+home_section_even = "#223143"

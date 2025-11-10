@@ -1,0 +1,68 @@
+/*!
+ * Nightfox Theme
+ * Based on the theme structure of Hugo Blox
+ */
+
+:root {
+  /* Primary Colors */
+  --color-primary: #81b29a;
+  --color-primary-rgb: 129, 178, 154;
+  --color-primary-darker: #6a9a83;
+  --color-primary-darkest: #537c68;
+  
+  /* Secondary Colors */
+  --color-secondary: #e0a888;
+  --color-secondary-rgb: 224, 168, 136;
+  --color-secondary-darker: #d08e68;
+  --color-secondary-darkest: #b5754d;
+  
+  /* Tertiary Colors */
+  --color-tertiary: #f4a261;
+  --color-tertiary-rgb: 244, 162, 97;
+  --color-tertiary-darker: #e08a47;
+  --color-tertiary-darkest: #c27031;
+  
+  /* Greys */
+  --color-grey: #192435;
+  --color-grey-100: #121a26;
+  --color-grey-200: #1f2b3c;
+  --color-grey-300: #2a384e;
+  --color-grey-400: #3d4c63;
+  --color-grey-500: #566375;
+  --color-grey-600: #6d7b8d;
+  --color-grey-700: #8c97a3;
+  --color-grey-800: #a8b0bb;
+  --color-grey-900: #c5cbd3;
+  
+  /* Theme-specific variables */
+  --color-dark: #192435;
+  --color-dark-high: #0f1419;
+  --color-light: #cdcecf;
+  --color-light-low: #939faa;
+  --color-text: #cdcecf;
+  --color-text-inverse: #192435;
+  --color-bg: #192435;
+  --color-bg-panel: #223143;
+  --color-border: #4c566a;
+  
+  /* Code & Pre */
+  --color-code: #e0a888;
+  --color-code-bg: #2a384e;
+  
+  /* Alert Colors */
+  --color-alert-note: #81b29a;
+  --color-alert-note-bg: #23332f;
+  --color-alert-note-border: #405c53;
+  --color-alert-tip: #81b29a;
+  --color-alert-tip-bg: #23332f;
+  --color-alert-tip-border: #405c53;
+  --color-alert-important: #b5754d;
+  --color-alert-important-bg: #3c2a22;
+  --color-alert-important-border: #5a3f30;
+  --color-alert-warning: #f4a261;
+  --color-alert-warning-bg: #402a1f;
+  --color-alert-warning-border: #66422d;
+  --color-alert-caution: #e05b5b;
+  --color-alert-caution-bg: #402222;
+  --color-alert-caution-border: #663030;
+}

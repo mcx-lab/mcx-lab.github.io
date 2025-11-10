@@ -1,0 +1,68 @@
+/*!
+ * Dayfox Theme
+ * Based on the theme structure of Hugo Blox
+ */
+
+:root {
+  /* Primary Colors */
+  --color-primary: #286983;
+  --color-primary-rgb: 40, 105, 131;
+  --color-primary-darker: #1e5065;
+  --color-primary-darkest: #143747;
+  
+  /* Secondary Colors */
+  --color-secondary: #56949f;
+  --color-secondary-rgb: 86, 148, 159;
+  --color-secondary-darker: #3d7a83;
+  --color-secondary-darkest: #2a565d;
+  
+  /* Tertiary Colors */
+  --color-tertiary: #ce6f00;
+  --color-tertiary-rgb: 206, 111, 0;
+  --color-tertiary-darker: #b25f00;
+  --color-tertiary-darkest: #8a4a00;
+  
+  /* Greys */
+  --color-grey: #e5e9f0;
+  --color-grey-100: #f8f9fa;
+  --color-grey-200: #e9ecef;
+  --color-grey-300: #dee2e6;
+  --color-grey-400: #ced4da;
+  --color-grey-500: #adb5bd;
+  --color-grey-600: #6c757d;
+  --color-grey-700: #495057;
+  --color-grey-800: #343a40;
+  --color-grey-900: #212529;
+  
+  /* Theme-specific variables */
+  --color-dark: #393b44;
+  --color-dark-high: #22242a;
+  --color-light: #f8f9fa;
+  --color-light-low: #e9ecef;
+  --color-text: #393b44;
+  --color-text-inverse: #e5e9f0;
+  --color-bg: #e5e9f0;
+  --color-bg-panel: #d5d8e0;
+  --color-border: #aeb0b6;
+  
+  /* Code & Pre */
+  --color-code: #d0a93a;
+  --color-code-bg: #e6e6e6;
+  
+  /* Alert Colors */
+  --color-alert-note: #56949f;
+  --color-alert-note-bg: #e6f4f6;
+  --color-alert-note-border: #bfe1e6;
+  --color-alert-tip: #56949f;
+  --color-alert-tip-bg: #e6f4f6;
+  --color-alert-tip-border: #bfe1e6;
+  --color-alert-important: #8a5700;
+  --color-alert-important-bg: #ffebcc;
+  --color-alert-important-border: #ffd499;
+  --color-alert-warning: #ce6f00;
+  --color-alert-warning-bg: #ffe0cc;
+  --color-alert-warning-border: #ffcfb3;
+  --color-alert-caution: #a60000;
+  --color-alert-caution-bg: #ffcccc;
+  --color-alert-caution-border: #ff9999;
+}

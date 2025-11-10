@@ -6,13 +6,13 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: night
+  theme_day: dayfox
+  theme_night: nightfox
   font: native
   font_size: L
 
 # Default theme preference
-default_theme: dark
+default_theme: nightfox
 
 # SEO
 
