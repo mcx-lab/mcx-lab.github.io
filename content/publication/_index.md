@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Publications/Patent/IP
 
 # Listing view
 view: citation

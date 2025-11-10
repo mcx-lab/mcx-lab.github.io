@@ -1,21 +1,20 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-01-10
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        mcx-lab
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **mcx-lab** research group focuses on cutting-edge research in legged locomotion, learning-based methods for perceptual locomotion and terrain-awareness, enabling quadruped robots to safely and robustly navigate both urban areas and unstructured outdoor environments.
   
   - block: collection
     content:
@@ -74,7 +73,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="Meet our team →" %}}
     design:
       columns: '1'
 ---
