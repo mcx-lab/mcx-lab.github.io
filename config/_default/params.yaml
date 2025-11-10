@@ -7,9 +7,12 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: night
   font: native
   font_size: L
+
+# Default theme preference
+default_theme: dark
 
 # SEO
 
