@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayfox Color Palette</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f6f2ee;
+            color: #3d2b5a;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #e4dcd4;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #396847;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #643f61;
+            font-size: 1.2em;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            color: #302b5d;
+            border-bottom: 2px solid #a4c1c2;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        
+        .color-card {
+            background-color: #f2e9e1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .color-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .color-preview {
+            height: 80px;
+        }
+        
+        .color-info {
+            padding: 12px;
+        }
+        
+        .color-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #302b5d;
+        }
+        
+        .color-hex {
+            font-family: monospace;
+            font-size: 0.9em;
+            color: #643f61;
+        }
+        
+        .color-usage {
+            font-size: 0.85em;
+            color: #824d5b;
+            margin-top: 8px;
+            font-style: italic;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #824d5b;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .color-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dayfox Color Palette</h1>
+            <p class="subtitle">A complete visualization of the dayfox.nvim color scheme</p>
+        </header>
+        
+        <div class="section">
+            <h2 class="section-title">Basic Colors</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #352c24;"></div>
+                    <div class="color-info">
+                        <div class="color-name">black</div>
+                        <div class="color-hex">#352c24</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #a5222f;"></div>
+                    <div class="color-info">
+                        <div class="color-name">red</div>
+                        <div class="color-hex">#a5222f</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #396847;"></div>
+                    <div class="color-info">
+                        <div class="color-name">green</div>
+                        <div class="color-hex">#396847</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #AC5402;"></div>
+                    <div class="color-info">
+                        <div class="color-name">yellow</div>
+                        <div class="color-hex">#AC5402</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #2848a9;"></div>
+                    <div class="color-info">
+                        <div class="color-name">blue</div>
+                        <div class="color-hex">#2848a9</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #6e33ce;"></div>
+                    <div class="color-info">
+                        <div class="color-name">magenta</div>
+                        <div class="color-hex">#6e33ce</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #287980;"></div>
+                    <div class="color-info">
+                        <div class="color-name">cyan</div>
+                        <div class="color-hex">#287980</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #f2e9e1;"></div>
+                    <div class="color-info">
+                        <div class="color-name">white</div>
+                        <div class="color-hex">#f2e9e1</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #955f61;"></div>
+                    <div class="color-info">
+                        <div class="color-name">orange</div>
+                        <div class="color-hex">#955f61</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #a440b5;"></div>
+                    <div class="color-info">
+                        <div class="color-name">pink</div>
+                        <div class="color-hex">#a440b5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Background Colors</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #e4dcd4;"></div>
+                    <div class="color-info">
+                        <div class="color-name">bg0</div>
+                        <div class="color-hex">#e4dcd4</div>
+                        <div class="color-usage">Dark bg - status line and float</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #f6f2ee;"></div>
+                    <div class="color-info">
+                        <div class="color-name">bg1</div>
+                        <div class="color-hex">#f6f2ee</div>
+                        <div class="color-usage">Default bg</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #dbd1dd;"></div>
+                    <div class="color-info">
+                        <div class="color-name">bg2</div>
+                        <div class="color-hex">#dbd1dd</div>
+                        <div class="color-usage">Lighter bg - colorcolm folds</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #d3c7bb;"></div>
+                    <div class="color-info">
+                        <div class="color-name">bg3</div>
+                        <div class="color-hex">#d3c7bb</div>
+                        <div class="color-usage">Lighter bg - cursor line</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #aab0ad;"></div>
+                    <div class="color-info">
+                        <div class="color-name">bg4</div>
+                        <div class="color-hex">#aab0ad</div>
+                        <div class="color-usage">Conceal, border fg</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #837a72;"></div>
+                    <div class="color-info">
+                        <div class="color-name">comment</div>
+                        <div class="color-hex">#837a72</div>
+                        <div class="color-usage">Comment color</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Foreground Colors</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #302b5d;"></div>
+                    <div class="color-info">
+                        <div class="color-name">fg0</div>
+                        <div class="color-hex">#302b5d</div>
+                        <div class="color-usage">Lighter fg</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #3d2b5a;"></div>
+                    <div class="color-info">
+                        <div class="color-name">fg1</div>
+                        <div class="color-hex">#3d2b5a</div>
+                        <div class="color-usage">Default fg</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #643f61;"></div>
+                    <div class="color-info">
+                        <div class="color-name">fg2</div>
+                        <div class="color-hex">#643f61</div>
+                        <div class="color-usage">Darker fg - status line</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #824d5b;"></div>
+                    <div class="color-info">
+                        <div class="color-name">fg3</div>
+                        <div class="color-hex">#824d5b</div>
+                        <div class="color-usage">Darker fg - line numbers, fold columns</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Selection Colors</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #e7d2be;"></div>
+                    <div class="color-info">
+                        <div class="color-name">sel0</div>
+                        <div class="color-hex">#e7d2be</div>
+                        <div class="color-usage">Popup bg, visual selection bg</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #a4c1c2;"></div>
+                    <div class="color-info">
+                        <div class="color-name">sel1</div>
+                        <div class="color-hex">#a4c1c2</div>
+                        <div class="color-usage">Popup sel bg, search bg</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Syntax Highlighting Colors</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #643f61;"></div>
+                    <div class="color-info">
+                        <div class="color-name">bracket</div>
+                        <div class="color-hex">#643f61</div>
+                        <div class="color-usage">Uses fg2</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #a5222f;"></div>
+                    <div class="color-info">
+                        <div class="color-name">builtin0</div>
+                        <div class="color-hex">#a5222f</div>
+                        <div class="color-usage">Uses red.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #2848a9;"></div>
+                    <div class="color-info">
+                        <div class="color-name">field</div>
+                        <div class="color-hex">#2848a9</div>
+                        <div class="color-usage">Uses blue.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #287980;"></div>
+                    <div class="color-info">
+                        <div class="color-name">ident</div>
+                        <div class="color-hex">#287980</div>
+                        <div class="color-usage">Uses cyan.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #6e33ce;"></div>
+                    <div class="color-info">
+                        <div class="color-name">keyword</div>
+                        <div class="color-hex">#6e33ce</div>
+                        <div class="color-usage">Uses magenta.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #955f61;"></div>
+                    <div class="color-info">
+                        <div class="color-name">number</div>
+                        <div class="color-hex">#955f61</div>
+                        <div class="color-usage">Uses orange.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #643f61;"></div>
+                    <div class="color-info">
+                        <div class="color-name">operator</div>
+                        <div class="color-hex">#643f61</div>
+                        <div class="color-usage">Uses fg2</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #396847;"></div>
+                    <div class="color-info">
+                        <div class="color-name">string</div>
+                        <div class="color-hex">#396847</div>
+                        <div class="color-usage">Uses green.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #AC5402;"></div>
+                    <div class="color-info">
+                        <div class="color-name">type</div>
+                        <div class="color-hex">#AC5402</div>
+                        <div class="color-usage">Uses yellow.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #352c24;"></div>
+                    <div class="color-info">
+                        <div class="color-name">variable</div>
+                        <div class="color-hex">#352c24</div>
+                        <div class="color-usage">Uses black.base</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Diagnostic Colors</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #a5222f;"></div>
+                    <div class="color-info">
+                        <div class="color-name">diag.error</div>
+                        <div class="color-hex">#a5222f</div>
+                        <div class="color-usage">Uses red.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #AC5402;"></div>
+                    <div class="color-info">
+                        <div class="color-name">diag.warn</div>
+                        <div class="color-hex">#AC5402</div>
+                        <div class="color-usage">Uses yellow.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #2848a9;"></div>
+                    <div class="color-info">
+                        <div class="color-name">diag.info</div>
+                        <div class="color-hex">#2848a9</div>
+                        <div class="color-usage">Uses blue.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #396847;"></div>
+                    <div class="color-info">
+                        <div class="color-name">diag.hint</div>
+                        <div class="color-hex">#396847</div>
+                        <div class="color-usage">Uses green.base</div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-preview" style="background-color: #396847;"></div>
+                    <div class="color-info">
+                        <div class="color-name">diag.ok</div>
+                        <div class="color-hex">#396847</div>
+                        <div class="color-usage">Uses green.base</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Dayfox Color Palette Visualization | Based on dayfox.nvim</p>
+        </footer>
+    </div>
+</body>
+</html>

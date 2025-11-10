@@ -7,10 +7,15 @@ name = "nightfox"
 primary = "#81b29a"
 
 # Menu
-menu_primary = "#192435"
+menu_primary = "#192330"
 menu_text = "#cdcecf"
 menu_text_active = "#e0a888"
 menu_title = "#81b29a"
+
+# Navigation
+nav_link = "#cdcecf"
+nav_link_hover = "#e0a888"
+nav_link_active = "#e0a888"
 
 # Links
 link = "#e0a888"

@@ -45,6 +45,22 @@
   --color-bg-panel: #223143;
   --color-border: #4c566a;
   
+  /* Menu and Navigation */
+  --color-menu-primary: #192330;
+  --color-menu-text: #cdcecf;
+  --color-menu-text-hover: #e0a888;
+  --color-menu-text-active: #e0a888;
+  --color-menu-title: #81b29a;
+  
+  /* Navigation */
+  --color-nav-link: #cdcecf;
+  --color-nav-link-hover: #e0a888;
+  --color-nav-link-active: #e0a888;
+  
+  /* Links */
+  --color-link: #e0a888;
+  --color-link-hover: #f4a261;
+  
   /* Code & Pre */
   --color-code: #e0a888;
   --color-code-bg: #2a384e;

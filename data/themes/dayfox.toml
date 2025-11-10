@@ -4,19 +4,24 @@ name = "dayfox"
 
 [light]
 # Primary
-primary = "#286983"
+primary = "#396847"
 
 # Menu
-menu_primary = "#e5e9f0"
-menu_text = "#393b44"
-menu_text_active = "#286983"
-menu_title = "#286983"
+menu_primary = "#f6f2ee"
+menu_text = "#3d2b5a"
+menu_text_active = "#2848a9"
+menu_title = "#396847"
+
+# Navigation
+nav_link = "#3d2b5a"
+nav_link_hover = "#2848a9"
+nav_link_active = "#2848a9"
 
 # Links
-link = "#56949f"
-link_hover = "#286983"
+link = "#2848a9"
+link_hover = "#396847"
 link_decoration = "bold"
 
 # Home sections
-home_section_odd = "#e5e9f0"
-home_section_even = "#d5d8e0"
+home_section_odd = "#f6f2ee"
+home_section_even = "#e4dcd4"

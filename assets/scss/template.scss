@@ -7,3 +7,72 @@
 .cta-group {
   justify-content: center;
 }
+
+/* Menu and Navigation Styling for Dayfox/Nightfox themes */
+.navbar {
+  background-color: var(--color-menu-primary, var(--color-bg, #192330));
+}
+
+.navbar-brand {
+  color: var(--color-menu-title, var(--color-primary, #81b29a)) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-menu-text, var(--color-text, #cdcecf)) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--color-menu-text-hover, var(--color-secondary, #e0a888)) !important;
+}
+
+/* Multiple possible active state selectors for different Hugo Blox implementations */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.current,
+.navbar-nav .active > .nav-link,
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav li.active a,
+.navbar-nav li.current a,
+.navbar-nav a.current,
+.navbar-nav .current-item,
+.navbar-nav .is-active {
+  color: var(--color-menu-text-active, var(--color-secondary, #e0a888)) !important;
+}
+
+/* For sidebar navigation - multiple possible selectors */
+.sidebar nav ul a,
+.sidebar nav ul a:hover,
+.sidebar nav ul a:focus {
+  color: var(--color-menu-text, var(--color-text, #cdcecf));
+}
+
+.sidebar nav ul a:hover,
+.sidebar nav ul a:focus {
+  color: var(--color-menu-text-hover, var(--color-secondary, #e0a888));
+}
+
+.sidebar nav ul li.active > a,
+.sidebar nav ul li.current > a,
+.sidebar nav ul a.active,
+.sidebar nav ul a.current,
+.sidebar nav ul .current-item,
+.sidebar nav ul .is-active {
+  color: var(--color-menu-text-active, var(--color-secondary, #e0a888));
+}
+
+/* For other navigation elements */
+a {
+  color: var(--color-link, #e0a888);
+}
+
+a:hover {
+  color: var(--color-link-hover, #f4a261);
+}
+
+/* Additional global active navigation styles */
+.active,
+.current,
+.current-item,
+.is-active {
+  color: var(--color-menu-text-active, var(--color-secondary, #e0a888)) !important;
+}
